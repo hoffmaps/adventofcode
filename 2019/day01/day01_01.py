@@ -3,6 +3,7 @@
 file_in = open("input01_01", "r")
 print(file_in)
 content = file_in.readlines()
+file_in.close()
 print(content)
 numbers = []
 for x in content:
